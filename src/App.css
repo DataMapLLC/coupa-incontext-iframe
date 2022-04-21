@@ -1,9 +1,16 @@
+.Context {
+  vertical-align: top;
+  text-align: left;
+  color: #61dafb;
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 

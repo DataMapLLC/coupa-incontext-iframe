@@ -9,10 +9,29 @@ function App() {
 
   return (
     <div>
-      <div className="Context">coupahost is {coupahost}</div>
-      <div className="Context">user_id is {user_id}</div>
-      <div className="Context">object_type is {object_type}</div>
-      <div className="Context">object_id is {object_id}</div>
+      <div className="Context">
+        Debugging information for Coupa In-Context Iframe
+        <table>
+          <tbody>
+            <tr>
+              <td>coupahost</td>
+              <td>{coupahost}</td>
+            </tr>
+            <tr>
+              <td>user_id</td>
+              <td>{user_id}</td>
+            </tr>
+            <tr>
+              <td>object_type</td>
+              <td>{object_type}</td>
+            </tr>
+            <tr>
+              <td>object_id</td>
+              <td>{object_id}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
